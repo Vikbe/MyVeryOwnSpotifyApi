@@ -26,7 +26,7 @@ namespace MyVeryOwnSpotifyApi.Services
         {
            
 
-            string searchQuery = $"q={Uri.EscapeDataString(search)}";
+            string searchQuery = $"q={Uri.EscapeDataString(search)}"; //Encode the spaces.
             string searchType = "type=artist";
 
             //Create the uri query
