@@ -1,4 +1,4 @@
 {
-  "ClientID": "", //required
-  "ClientSecret": "" //required
+  "ClientID": "", 
+  "ClientSecret": "" 
 }
